@@ -23,4 +23,4 @@ class  WomenApiView(APIView):
             content=request.data['content'],
             cat = request.data['cat']
         )
-        return Response({'post': model_to_dict(post_new)})
+        return Response({'post': model_to_dict(post_new)})                          
